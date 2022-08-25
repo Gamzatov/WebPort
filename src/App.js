@@ -99,7 +99,7 @@ function App() {
           <Options dark={dark} />
           <div className="filters__sections">
             <Routes>
-              <Route path='/' element={<Projects
+              <Route path='/WebPort/' element={<Projects
                 worksPerPage={worksPerPage}
                 props={currentWork}
                 loading={loading}
