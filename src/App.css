@@ -755,6 +755,7 @@ nav > ul {
 .mobile_pages{
   margin: 0 auto;
   font-size: 18px;
+  display: none;
 }
 @media(max-width:762px){
   .project_grid{
@@ -764,5 +765,8 @@ nav > ul {
 @media(max-width:500px){
   .mob{
     display: none;
+  }
+  .mobile_pages{
+    display: block;
   }
 }
