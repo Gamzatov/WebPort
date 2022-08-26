@@ -702,6 +702,7 @@ nav > ul {
 .dark-theme {
   background: hsl(var(--hue), 40%, 8%);
   transition: 0.3s;
+  overflow: hidden;
 }
 .dark {
   background-color: #171f26 !important;
