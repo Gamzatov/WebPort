@@ -1,5 +1,6 @@
 import React from 'react'
-
+import me from '../assets/me.jpg'
+ 
 export default function Header({dark}) {
     return (
         <header className="profile container">
@@ -7,7 +8,7 @@ export default function Header({dark}) {
                 <div className="profile__data">
                     <div className="profile__border">
                         <div className="profile__perfil">
-                            {/* <img src="assets/img/perfil.png" alt=""> */}
+                            {/* <img src={me} alt="Artem Dirksen"/> */}
                         </div>
                     </div>
 
@@ -27,7 +28,7 @@ export default function Header({dark}) {
                     </ul>
                 </div>
                 <div className="profile__buttons">
-                    <a download="" href="../assets/pdf/DirksenArtem.pdf" className="button">
+                    <a target='_blank' href="https://drive.google.com/file/d/1eNtgmk7moIhVkXuC1RJZIAqAG2PVZQU5/view?usp=sharing" className="button">
                         Download CV <i className="ri-download-line"></i>
                     </a>
 

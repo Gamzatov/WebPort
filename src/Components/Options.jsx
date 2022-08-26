@@ -9,7 +9,7 @@ export default function Options({dark}) {
     console.log(dark)
     return (
         <ul className={dark === true ?  "dark filters__content" : "filters__content"}>
-            <NavLink to='/' className={({ isActive }) => (isActive ? 'filters__button tabActive' : 'filters__button')}>
+            <NavLink to='/WebPort' className={({ isActive }) => (isActive ? 'filters__button tabActive' : 'filters__button')}>
                 Projects
             </NavLink>
             <NavLink to='/skills' className={({ isActive }) => (isActive ? 'filters__button tabActive' : 'filters__button')}>

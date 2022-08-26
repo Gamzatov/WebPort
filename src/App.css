@@ -173,11 +173,14 @@ body.dark-theme {
 .profile__perfil {
   width: 100px;
   height: 100px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
     hsla(var(--hue), var(--sat), var(--lig), 0.2) 100%
-  );
+  ); */
+  background-image: url('./assets/me.jpg');
+  background-position: center;
+  background-size: cover;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
