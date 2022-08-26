@@ -28,7 +28,7 @@ export default function Header({dark}) {
                     </ul>
                 </div>
                 <div className="profile__buttons">
-                    <a target='_blank' href="https://drive.google.com/file/d/1eNtgmk7moIhVkXuC1RJZIAqAG2PVZQU5/view?usp=sharing" className="button">
+                    <a target='_blank' href="https://drive.google.com/file/d/153WKPRtObxhfLksKxYWPQmBarNX2SYpg/view?usp=sharing" className="button">
                         Download CV <i className="ri-download-line"></i>
                     </a>
 
