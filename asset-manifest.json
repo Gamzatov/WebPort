@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Gamzatov/WebPort.git/static/css/main.f076893a.css",
-    "main.js": "/Gamzatov/WebPort.git/static/js/main.bf1e65d2.js",
+    "main.js": "/Gamzatov/WebPort.git/static/js/main.8da0a91a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Gamzatov/WebPort.git/static/js/787.1ed0c42c.chunk.js",
     "static/media/gotrip.jpg": "/Gamzatov/WebPort.git/static/media/gotrip.48980233ed5a0628929c.jpg",
     "index.html": "/Gamzatov/WebPort.git/index.html",
     "main.f076893a.css.map": "/Gamzatov/WebPort.git/static/css/main.f076893a.css.map",
-    "main.bf1e65d2.js.map": "/Gamzatov/WebPort.git/static/js/main.bf1e65d2.js.map",
+    "main.8da0a91a.js.map": "/Gamzatov/WebPort.git/static/js/main.8da0a91a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Gamzatov/WebPort.git/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f076893a.css",
-    "static/js/main.bf1e65d2.js"
+    "static/js/main.8da0a91a.js"
   ]
 }
