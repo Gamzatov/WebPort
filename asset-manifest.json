@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WebPort/static/css/main.f076893a.css",
-    "main.js": "/WebPort/static/js/main.2f0b78ce.js",
+    "main.css": "/WebPort/static/css/main.69397510.css",
+    "main.js": "/WebPort/static/js/main.1dd9a833.js",
     "static/js/787.1ed0c42c.chunk.js": "/WebPort/static/js/787.1ed0c42c.chunk.js",
     "static/media/gotrip.jpg": "/WebPort/static/media/gotrip.48980233ed5a0628929c.jpg",
     "index.html": "/WebPort/index.html",
-    "main.f076893a.css.map": "/WebPort/static/css/main.f076893a.css.map",
-    "main.2f0b78ce.js.map": "/WebPort/static/js/main.2f0b78ce.js.map",
+    "main.69397510.css.map": "/WebPort/static/css/main.69397510.css.map",
+    "main.1dd9a833.js.map": "/WebPort/static/js/main.1dd9a833.js.map",
     "787.1ed0c42c.chunk.js.map": "/WebPort/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f076893a.css",
-    "static/js/main.2f0b78ce.js"
+    "static/css/main.69397510.css",
+    "static/js/main.1dd9a833.js"
   ]
 }
