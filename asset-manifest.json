@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gamzatov/WebPort/static/css/main.f076893a.css",
-    "main.js": "/Gamzatov/WebPort/static/js/main.7114e7d1.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Gamzatov/WebPort/static/js/787.1ed0c42c.chunk.js",
-    "static/media/gotrip.jpg": "/Gamzatov/WebPort/static/media/gotrip.48980233ed5a0628929c.jpg",
-    "index.html": "/Gamzatov/WebPort/index.html",
-    "main.f076893a.css.map": "/Gamzatov/WebPort/static/css/main.f076893a.css.map",
-    "main.7114e7d1.js.map": "/Gamzatov/WebPort/static/js/main.7114e7d1.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Gamzatov/WebPort/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/WebPort/static/css/main.f076893a.css",
+    "main.js": "/WebPort/static/js/main.2f0b78ce.js",
+    "static/js/787.1ed0c42c.chunk.js": "/WebPort/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gotrip.jpg": "/WebPort/static/media/gotrip.48980233ed5a0628929c.jpg",
+    "index.html": "/WebPort/index.html",
+    "main.f076893a.css.map": "/WebPort/static/css/main.f076893a.css.map",
+    "main.2f0b78ce.js.map": "/WebPort/static/js/main.2f0b78ce.js.map",
+    "787.1ed0c42c.chunk.js.map": "/WebPort/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f076893a.css",
-    "static/js/main.7114e7d1.js"
+    "static/js/main.2f0b78ce.js"
   ]
 }
