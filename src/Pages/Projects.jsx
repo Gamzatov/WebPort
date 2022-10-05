@@ -1,54 +1,58 @@
 import React from 'react';
-import Pagination from '../Components/Pagination';
-import ProjectButton from '../Components/ProjectButton';
+import Loader from '../Components/Loader';
 
 
 const Projects = ({
-     props,
-     loading,
-    worksPerPage,
-    totalWorks,
-    works,
-    paginate,
-    currentPage,
-    nextPage,
-    previousPage,
-    dark,
-    indexOfLastWork }) => {
-    console.log(currentPage + 1);
+                      loading,
+                      dark,
+                      setShow,
+                      show,
+                      projects,
+                       }) => {
+    console.log('asdasd',projects);
 
     return (
         <div className="projects">
-            <Pagination
-                worksPerPage={worksPerPage}
-                totalWorks={works.length}
-                paginate={paginate}
-                currentPage={currentPage}
-                nextPage={nextPage}
-                previousPage={previousPage}
-                dark={dark}
-            />
             <div className="project_grid">
 
-                {
-                    props.map((el) =>
+                {loading ? [...Array(4)].map((el) => <Loader />) :
+                    projects.slice(0, 4).map((el) =>
                         <div className="item" key={el.id}>
                             <img className="project_img" src={el.img} alt={el.title} />
-                            <div class={dark === true ? "dark_overlay overlay" : "overlay"}>
-                                <div class="text">
+                            <div className={dark === true ? "dark_overlay overlay" : "overlay"}>
+                                <div className="text">
                                     <div className="item_title">
                                         {<p>{el.title}</p>}
                                     </div>
                                     <div className="item_link">
-                                        <a href={el.link} className="item-link">Visit</a>
+                                        <a href={el.link} target='_blank' className="item-link">Visit</a>
                                     </div>
                                 </div>
                             </div>
                         </div>)
                 }
 
-
+                {
+                    show  || loading ? projects.slice(4).map((el) =>
+                        <div className="item" key={el.id}>
+                            <img className="project_img" src={el.img} alt={el.title} />
+                            <div className={dark === true ? "dark_overlay overlay" : "overlay"}>
+                                <div className="text">
+                                    <div className="item_title">
+                                        {<p>{el.title}</p>}
+                                    </div>
+                                    <div className="item_link">
+                                        <a href={el.link} target='_blank' className="item-link">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>) : <Loader />
+                }
             </div>
+            <div className="btn_wrapper">
+                <button className='button show_btn' onClick={() => setShow(!show)}>{show ? 'Show less' : 'Show more'}</button>
+            </div>
+
         </div>
     );
 }

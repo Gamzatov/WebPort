@@ -45,7 +45,7 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: inherit;
   color: var(--text-color);
   transition: 0.3s; /* For animation dark mode */
 }
@@ -67,9 +67,12 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
-
+.btn_wrapper{
+  margin-top: 30px;
+  text-align: center;
+}
 .change-theme {
   position: absolute;
   top: 1.5rem;
@@ -116,6 +119,14 @@ body.dark-theme {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+.show_btn{
+  background-color: var(--first-color-alt);
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .dark-theme .button__gray {
@@ -178,9 +189,8 @@ body.dark-theme {
     hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
     hsla(var(--hue), var(--sat), var(--lig), 0.2) 100%
   ); */
-  background-image: url('./assets/me.jpg');
-  background-position: center;
-  background-size: cover;
+  background: url('./assets/me.jpg');
+  background-size: 100%;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -401,7 +411,6 @@ body.dark-theme {
   margin: auto;
   width: 100%;
   height: 100%;
-  max-height:250px;
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 10px;
@@ -634,9 +643,10 @@ nav > ul {
 .paginate-list {
   background-color: var(--text-color-lighten);
   margin: 22px auto;
-  max-width: 400px;
+  max-width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
 }
 .paginate-btn-active {
@@ -703,7 +713,6 @@ nav > ul {
 .dark-theme {
   background: hsl(var(--hue), 40%, 8%);
   transition: 0.3s;
-  overflow: hidden;
 }
 .dark {
   background-color: #171f26 !important;
@@ -766,12 +775,21 @@ nav > ul {
   .project_grid{
     grid-template-columns: 1fr;
   }
+  .mobile_pages{
+    display: block;
+  }
+  .loader{
+    width: 100%;
+    height: auto;
+  }
 }
 @media(max-width:500px){
   .mob{
     display: none;
   }
-  .mobile_pages{
-    display: block;
+}
+@media(max-width:350px){
+  .item_title > p{
+    font-size: 19px;
   }
 }
