@@ -793,6 +793,9 @@ nav > ul {
   .mob{
     display: none;
   }
+  .project_img {
+    height: 180pxg;
+  }
 }
 @media(max-width:350px){
   .item_title > p{
