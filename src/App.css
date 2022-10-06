@@ -794,7 +794,7 @@ nav > ul {
     display: none;
   }
   .project_img {
-    height: 180pxg;
+    height: 180px;
   }
 }
 @media(max-width:350px){
