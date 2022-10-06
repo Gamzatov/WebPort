@@ -771,6 +771,12 @@ nav > ul {
   font-size: 18px;
   display: none;
 }
+.bg-light{
+  background-color: #fff;
+}
+.bg-dark{
+  background: #0c111d;
+}
 @media(max-width:762px){
   .project_grid{
     grid-template-columns: 1fr;

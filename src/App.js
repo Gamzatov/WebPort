@@ -25,8 +25,10 @@ function App() {
     })
         .finally(() => {
           setLoading(false);
-        })
-  },[])
+        });
+     document.body.classList.add(dark ? 'bg-dark' : 'bg-light');
+
+  },[dark])
   console.log("pro", projects)
 
   let nextPage = () => {
@@ -36,6 +38,7 @@ function App() {
   let previousPage = () => {
     setCurrentPage(currentPage - 1)
   }
+
   // current work
   const indexOfLastWork = currentPage * worksPerPage;
   const indexOfFirstWork = indexOfLastWork - worksPerPage;
