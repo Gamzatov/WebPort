@@ -1,6 +1,5 @@
 import React from 'react'
-import me from '../assets/me.jpg'
- 
+
 export default function Header({dark}) {
     return (
         <header className="profile container">
@@ -33,10 +32,11 @@ export default function Header({dark}) {
                     </a>
 
                     <div className="profile__buttons-small">
-                        <a href="https://api.whatsapp.com/send?phone=380683863010" target="_blank" className={dark === true ? "dark_btn  button__small button" :"button button__small button__gray"}>
+                        <a href="https://api.whatsapp.com/send?phone=380683863010" rel='noreferrer' target="_blank" className={dark === true ? "dark_btn  button__small button" :"button button__small button__gray"}>
                             <ion-icon name="logo-whatsapp"></ion-icon>
                         </a>
-                        <a href="https://t.me/ads_dev" target="_blank"  className={dark === true ? "dark_btn  button__small button" :"button button__small button__gray"}>
+                        <a href="https://t.me/ads_dev" rel='noreferrer' target="_blank"  className={dark === true ? "dark_btn" +
+                            "  button__small button" :"button button__small button__gray"}>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </a>
                     </div>
