@@ -46,7 +46,7 @@ const Projects = ({
                                     </div>
                                 </div>
                             </div>
-                        </div>) : <Loader />
+                        </div>) : ''
                 }
             </div>
             <div className="btn_wrapper">
