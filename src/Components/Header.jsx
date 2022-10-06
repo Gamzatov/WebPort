@@ -16,13 +16,13 @@ export default function Header({dark}) {
 
                     <ul className="profile__social">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dirksen.tema@gmail.com&su=Vacancy&body=Hi!" target="_blank" className={dark === true ? "dark_text profile__social-link": "profile__social-link"}>
-                        <ion-icon name="dirksen.tema@gmail.com"></ion-icon>
+                        <ion-icon name="mail"></ion-icon>
                         </a>
                         <a href="https://www.linkedin.com/in/artem-dirksen-9821a0246/" target="_blank" className={dark === true ? "dark_text profile__social-link": "profile__social-link"}>
-                            <ion-icon name="linkedin"></ion-icon>
+                            <ion-icon name="logo-linkedin"></ion-icon>
                         </a>
                         <a href="https://github.com/Gamzatov" target="_blank" className={dark === true ? "dark_text profile__social-link": "profile__social-link"}>
-                            <ion-icon name="Github"></ion-icon>
+                            <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </ul>
                 </div>
