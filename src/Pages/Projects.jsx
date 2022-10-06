@@ -9,7 +9,6 @@ const Projects = ({
                       show,
                       projects,
                        }) => {
-    console.log('asdasd',projects);
 
     return (
         <div className="projects">

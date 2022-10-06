@@ -26,10 +26,10 @@ function App() {
         .finally(() => {
           setLoading(false);
         });
-     document.body.classList.add(dark ? 'bg-dark' : 'bg-light');
+     document.body.classList.toggle( 'bg-dark');
 
   },[dark])
-  console.log("pro", projects)
+  console.log("dark",dark)
 
   let nextPage = () => {
     setCurrentPage(currentPage + 1)
