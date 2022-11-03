@@ -26,7 +26,7 @@ function App() {
         .finally(() => {
           setLoading(false);
         });
-     document.body.classList.toggle( 'bg-dark');
+     // document.body.classList.toggle( 'bg-dark');
 
   },[dark])
   console.log("dark",dark)

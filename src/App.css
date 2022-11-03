@@ -45,7 +45,7 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  backgroundg: #fff;
+  background: #fff;
   color: var(--text-color);
   transition: 0.3s; /* For animation dark mode */
 }
