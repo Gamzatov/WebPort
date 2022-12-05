@@ -49,9 +49,9 @@ function App() {
       <div className={dark === true ? 'dark-theme' : 'main_wrapper'}>
         <div className="toggle_theme">
           <button className='toggle_wrapper' onClick={() => setDark(!dark)}>
-            {
+            {/* {
               dark === true ? <i className="ri-moon-line change-theme ri-sun-line" id="theme-button"></i> : <i className="ri-moon-line change-theme" id="theme-button"></i>
-            }
+            } */}
           </button>
         </div>
         <Header dark={dark} />

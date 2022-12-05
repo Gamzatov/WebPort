@@ -35,7 +35,7 @@ export default function Header({dark}) {
                         <a href="https://api.whatsapp.com/send?phone=380683863010" rel='noreferrer' target="_blank" className={dark === true ? "dark_btn  button__small button" :"button button__small button__gray"}>
                             <ion-icon name="logo-whatsapp"></ion-icon>
                         </a>
-                        <a href="https://t.me/ads_dev" rel='noreferrer' target="_blank"  className={dark === true ? "dark_btn" +
+                        <a href="https://t.me/dev_as_life" rel='noreferrer' target="_blank"  className={dark === true ? "dark_btn" +
                             "  button__small button" :"button button__small button__gray"}>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </a>
